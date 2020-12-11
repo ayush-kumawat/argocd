@@ -2,6 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: jenkinsclaim
+  namespace: jenkins
   labels:
     app: jenkins-master
 spec:
